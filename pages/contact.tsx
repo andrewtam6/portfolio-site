@@ -3,6 +3,7 @@ import { WavyBackground } from "@/components/ui/wavy-background";
 import { FloatingNavDemo } from "@/components/nav/navbar"
 
 export default function contact() {
+  // TODO: FIX STYLING
   return (
     <>
       <FloatingNavDemo />
