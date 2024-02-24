@@ -16,10 +16,6 @@ export function FloatingNavDemo() {
       name: "Experience",
       link: "/experience",
     },
-    {
-        name: "Contact Me",
-        link: "/contact"
-    }
   ];
   return (
     <div className="relative  w-full">
