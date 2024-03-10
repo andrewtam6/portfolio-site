@@ -6,18 +6,18 @@ import { WavyBackground } from "@/components/wavy-background";
 export default function Home() {
   // TODO: Navbar
   return (
-    <>
-      <Navbar />
-      <WavyBackground className="max-w-4xl mx-auto pb-40">
-        <p className="text-2xl md:text-8xl lg:text-8xl text-white font-bold inter-var text-center">
-          Andrew Tamayo
-        </p>
-        <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-          Computer Science Student @ University of Tennessee - Knoxville
-        </p>
-      </WavyBackground>
-
-   
-    </>
+    <div className="relative">
+      <Navbar className={"absolute top-0 right-0"}/>
+      <div>
+        <WavyBackground className="max-w-4xl mx-auto pb-40">
+          <p className="text-2xl md:text-8xl lg:text-8xl text-white font-bold inter-var text-center">
+            Andrew Tamayo
+          </p>
+          <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
+            Computer Science Student @ University of Tennessee - Knoxville
+          </p>
+        </WavyBackground>
+      </div>
+    </div>
   );
 }
