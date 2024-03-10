@@ -31,7 +31,7 @@ export const WavyBackground = ({
   const init = () => {
     canvas = canvasRef.current;
     const windowWidth = window.innerWidth;
-    const windowHeight = 250;
+    const windowHeight = 400;
   
     ctx = canvas.getContext("2d");
     w = canvas.width = windowWidth;
@@ -41,7 +41,7 @@ export const WavyBackground = ({
     nt = 0;
     window.onresize = function () {
       w = canvas.width = window.innerWidth;
-      h = canvas.height = 250; // Set height to 250 pixels
+      h = canvas.height = 400; // Set height to 250 pixels
       ctx.filter = `blur(${blur}px)`;
     };
   
@@ -64,7 +64,7 @@ export const WavyBackground = ({
       ctx.strokeStyle = waveColors[i % waveColors.length];
       for (x = 0; x < w; x += 5) {
         var y = noise(x / 800, 0.3 * i, nt) * 100;
-        ctx.lineTo(x, y + h * 0.5); // adjust for height, currently at 50% of the container
+        ctx.lineTo(x, y + h * 0.95); // adjust for height, currently at 50% of the container
       }
       ctx.stroke();
       ctx.closePath();
@@ -100,7 +100,7 @@ export const WavyBackground = ({
   return (
     <div
       className={cn(
-        "h-screen flex flex-col items-center justify-center",
+        "h-96 mt-4 flex flex-col items-center justify-center",
         containerClassName
       )}
     >

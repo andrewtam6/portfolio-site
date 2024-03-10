@@ -3,15 +3,15 @@
 import Navbar from "@/components/navbar";
 import { WavyBackground } from "@/components/wavy-bg";
 
-export default function Home() {
+export default function Contact() {
+  // Add work information
   return (
-    <div className="relative">
+    <div className="flex justify-start mx-24">
       <div>
         <Navbar />
-        <WavyBackground className="max-w-4xl max-h-96 mx-auto pb-40">
-
-          <p className="text-2xl md:text-8xl lg:text-8xl text-white font-bold inter-var text-left">
-            Work Experience
+        <WavyBackground className="mx-auto">
+          <p className="text-2xl md:text-3xl lg:text-6xl text-white font-bold inter-var text-left z-30">
+            Experience
           </p>
         </WavyBackground>
       </div>
