@@ -7,9 +7,10 @@ export default function Home() {
   // TODO: Navbar
   return (
     <div className="relative">
-      <Navbar className={"absolute top-0 right-0"}/>
       <div>
+        <Navbar />
         <WavyBackground className="max-w-4xl mx-auto pb-40">
+
           <p className="text-2xl md:text-8xl lg:text-8xl text-white font-bold inter-var text-center">
             Andrew Tamayo
           </p>
