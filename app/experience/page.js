@@ -11,7 +11,7 @@ export default function Home() {
         <WavyBackground className="max-w-4xl max-h-96 mx-auto pb-40">
 
           <p className="text-2xl md:text-8xl lg:text-8xl text-white font-bold inter-var text-left">
-            Contact Me
+            Work Experience
           </p>
         </WavyBackground>
       </div>

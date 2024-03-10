@@ -1,7 +1,7 @@
 "use client";
 
 import Navbar from "@/components/navbar";
-import { WavyBackground } from "@/components/wavy-background";
+import { WavyBackground } from "@/components/wavy-background-hero";
 
 export default function Home() {
   return (
