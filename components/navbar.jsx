@@ -3,13 +3,13 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className="absolute p-8 left-3/4 z-50">
-            <div className="inline-flex">
+        <div className="absolute top-0 right-0 py-8 z-50">
+            <div className="flex justify-end space-x-8">
                 <nav>
-                    <Link href="/home" className="p-4 text-white hover:text-gray-200 transition-colors duration-300  font-medium">Home</Link>
-                    <Link href="/projects" className="p-4 text-white hover:text-gray-200 transition-colors duration-300  font-medium">Projects</Link>
-                    <Link href="/experience" className="p-4 text-white hover:text-gray-200 transition-colors duration-300  font-medium">Experience</Link>
-                    <Link href="/contact" className="p-4 text-white hover:text-gray-200 transition-colors duration-300  font-medium">Contact</Link>
+                    <Link href="/home" className="text-white p-4 hover:text-gray-200 transition-colors duration-300 font-medium">Home</Link>
+                    <Link href="/projects" className="text-white p-4 hover:text-gray-200 transition-colors duration-300 font-medium">Projects</Link>
+                    <Link href="/experience" className="text-white p-4 hover:text-gray-200 transition-colors duration-300 font-medium">Experience</Link>
+                    <Link href="/contact" className="text-white p-4 hover:text-gray-200 transition-colors duration-300 font-medium">Contact</Link>
                 </nav>
             </div>
         </div>
@@ -18,4 +18,3 @@ const Navbar = () => {
   
 
 export default Navbar;
-
