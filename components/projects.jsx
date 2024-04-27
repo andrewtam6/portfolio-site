@@ -4,7 +4,7 @@ import React from 'react';
 const ProjectsGrid = () => {
   const projects = [
     { title: 'PanicStudy', image: '/image.png', href: "https://panicstudy.com", description: "A site to match student tutors with tutees programmatically"},
-    { title: 'CourseGen', image: '/coursegen.jpg', href: "https://test.com", description: "An AI-powered site to generate a course on any topic" },
+    { title: 'CourseGen', image: '/coursegen.png', href: "N/A", description: "An AI-powered site to generate a course on any topic" },
   ];
 
   return (
