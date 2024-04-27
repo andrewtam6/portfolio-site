@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectsGrid = () => {
   const projects = [
-    { title: 'Project placeholder', image: '/placeholder.jpg' },
+    { title: 'PanicStudy', image: './imgs/panic-study.jpg' },
     { title: 'Project placeholder', image: '/placeholder.jpg' },
     { title: 'Project placeholder', image: '/placeholder.jpg' },
     { title: 'Project placeholder', image: '/placeholder.jpg' },
