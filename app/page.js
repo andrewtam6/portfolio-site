@@ -1,5 +1,5 @@
 "use client";
-import "../styles/globals.css";
+import "./globals.css";
 import Navbar from "@/components/navbar";
 import { WavyBackground } from "@/components/wavy-background-hero";
 
