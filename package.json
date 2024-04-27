@@ -16,12 +16,12 @@
     "react-dom": "^18",
     "react-hook-form": "^7.51.3",
     "simplex-noise": "^4.0.1",
-    "tailwind-merge": "^2.2.1"
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "postcss": "^8"
   },
   "engines": {
     "node": "20.x"
