@@ -10,7 +10,7 @@ export default function Projects() {
       <div>
         <Navbar />
         <WavyBackground>
-          <p className="text-2xl md:text-3xl lg:text-6xl text-white font-bold inter-var text-left">
+          <p className="text-2xl md:text-3xl lg:text-6xl text-white font-bold inter-var text-left mb-16">
             Projects
           </p>
         </WavyBackground>
