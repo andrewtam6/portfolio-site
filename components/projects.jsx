@@ -1,8 +1,9 @@
+import Image from 'next/image';
 import React from 'react';
 
 const ProjectsGrid = () => {
   const projects = [
-    { title: 'PanicStudy', image: './imgs/panic-study.jpg' },
+    { title: 'PanicStudy', image: '/image_ps.png' },
     { title: 'Project placeholder', image: '/placeholder.jpg' },
     { title: 'Project placeholder', image: '/placeholder.jpg' },
     { title: 'Project placeholder', image: '/placeholder.jpg' },
@@ -17,12 +18,14 @@ const ProjectsGrid = () => {
                 key={index}
                 className="flex flex-col items-center p-4 bg-gray-100 rounded-lg"
                 >
-                <img
+                <Image
                     src={project.image}
                     alt={project.title}
+                    width={500}
+                    height={500}
                     className="w-72 h-64 object-cover mb-2"
                 />
-                <span>{project.title}</span>
+                <a href='https://panicstudy.com'>{project.title}</a>
                 </div>
             ))}
             </div>
