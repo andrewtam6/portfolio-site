@@ -16,7 +16,7 @@ const ProjectsGrid = () => {
                 key={index}
                 className="flex flex-col items-center p-4 bg-gray-100 rounded-lg"
                 >
-                <div className="hover:bg-purple-500" ><Image
+                <div className="bg-purple-500" ><Image
                     src={project.image}
                     alt={project.title}
                     width={1920}
