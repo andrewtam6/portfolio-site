@@ -3,8 +3,8 @@ import React from 'react';
 
 const ProjectsGrid = () => {
   const projects = [
-    { title: 'PanicStudy', image: '/image.png', href: "https://panicstudy.com", description: "A site to match student tutors with tutees programmatically"},
-    { title: 'CourseGen', image: '/coursegen.png', href: "N/A", description: "An AI-powered site to generate a course on any topic" },
+    { title: 'PanicStudy', image: '/image.png', description: "A site to match student tutors with tutees programmatically"},
+    { title: 'CourseGen', image: '/coursegen.png', description: "An AI-powered site to generate a course on any topic" },
   ];
 
   return (
@@ -16,15 +16,15 @@ const ProjectsGrid = () => {
                 key={index}
                 className="flex flex-col items-center p-4 bg-gray-100 rounded-lg"
                 >
-                <a className="hover:bg-purple-500" href={project.href}><Image
+                <div className="hover:bg-purple-500" ><Image
                     src={project.image}
                     alt={project.title}
                     width={1920}
                     height={1080}
                     className="w-full h-72 object-cover mb-2"
-                ></Image></a>
+                ></Image></div>
                 
-                <a className="hover:text-purple-600 font-medium text-purple-500"  href={project.href}>{project.title}</a>
+                <a className="hover:text-purple-600 font-medium text-purple-500">{project.title}</a>
                 <p className="text-wrap">{project.description}</p>
                 </div>
             ))}
